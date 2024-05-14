@@ -40,3 +40,10 @@ for i in enumerate(list1):
 for index, char in enumerate(list1, start=1):
  print(f'下标是{index}, 对应的字符是{char}')
 
+list1 = [10, 20, 30, 40, 50, 20]
+s1 = {100, 200, 300, 400, 500}
+print(tuple(list1))
+print(tuple(s1))
+
+list1 = [i for i in range(10)]
+print(list1)
